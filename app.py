@@ -1,6 +1,6 @@
 import streamlit as st
 
-import awesome_streamlit as ast
+#import awesome_streamlit as ast
 import WebsiteData.allwebdata
 import SearchEmail.uniq_google
 import BulkEmail.email_google
@@ -29,7 +29,10 @@ def main():
 
     #with st.spinner(f"Loading {selection} ..."):
     
-    ast.shared.components.write_page(page)
+    #ast.shared.components.write_page(page)
+
+    page.write()
+    
     
     st.sidebar.title("About")
     st.sidebar.info(
