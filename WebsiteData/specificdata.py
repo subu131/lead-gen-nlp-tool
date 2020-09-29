@@ -1,5 +1,4 @@
 from scraper_api import ScraperAPIClient
-import awesome_streamlit as ast
 import streamlit as st
 import requests
 import re
